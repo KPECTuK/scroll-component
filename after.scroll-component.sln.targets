@@ -1,0 +1,8 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name="GenerateCode" BeforeTargets="Build">
+    <Message Text=">> message 1" Importance="high" />
+  </Target>
+  <Target Name="RunCodeAnalysis" AfterTargets="Build">
+    <Message Text=">> message 2" Importance="high" />
+  </Target>
+</Project>
